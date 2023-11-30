@@ -10,7 +10,7 @@ public class MergeHellController {
 
 	static void kadaiB() {
 		 Random rand = new Random();
-		    int x = rand.nextInt(100);
+		    int x = rand.nextInt(100)+1;
 		    System.out.println(x+"が出ました");
 	}
 }
