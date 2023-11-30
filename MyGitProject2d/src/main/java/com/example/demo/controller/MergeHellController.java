@@ -8,16 +8,15 @@ public class MergeHellController {
 		kadaiB();
 	}
 
-		static void kadaiA() {
-			for(int a=0;a<=10;a++) {
-				System.out.println("現在"+a+"回目のループです");
-			}
+	static void kadaiA() {
+		for (int a = 0; a <= 10; a++) {
+			System.out.println("現在" + a + "回目のループです");
 		}
-
+	}
 
 	static void kadaiB() {
-		 Random rand = new Random();
-		    int x = rand.nextInt(100)+1;
-		    System.out.println(x+"が出ました");
+		Random rand = new Random();
+		int x = rand.nextInt(100) + 1;
+		System.out.println(x + "が出ました");
 	}
 }
